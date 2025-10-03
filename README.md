@@ -1,6 +1,6 @@
 <h1>ExpNo 5 : Implement Simple Hill Climbing Algorithm</h1> 
-<h3>Name:             </h3>
-<h3>Register Number:             </h3>
+<h3>Name: LIVYA DHARSHINI G          </h3>
+<h3>Register Number: 2305001013      </h3>
 <H3>Aim:</H3>
 <p>Implement Simple Hill Climbing Algorithm and Generate a String by Mutating a Single Character at each iteration </p>
 <h2> Theory: </h2>
@@ -66,7 +66,7 @@ def SimpleHillClimbing():
     best=generate_random_solution(answer)
     best_score=evaluate(best,answer)
     while True:
-       print("Score:", best_score, " Solution: ", "".join(best))  
+       print("Score:", best_score, " Solution: ", "".join(best))  lsm
        if best_score == 0:
            break
        new_solution = mutate_solution(list(best))
@@ -78,23 +78,12 @@ SimpleHillClimbing()
 ```
 
 <hr>
-<h2>Sample Input and Output</h2>
 <h2>Sample String:</h2> Artificial Intelligence
 <h2>Output:</h2>
-Score: 643  Solution :  8RzF:oG ]%;CPORRMe!zGvk<br>
-Score: 609  Solution :  8RzF:oG ]%;CPqRRMe!zGvk<br>
-Score: 604  Solution :  8RzF:oG ]%;CPqRRMe!zGqk<br>
-Score: 594  Solution :  8RzF:oG ]%;CPqRRWe!zGqk<br>
-Score: 551  Solution :  8RzF:oGK]%;CPqRRWe!zGqk<br>
-Score: 551  Solution :  8RzF:oGK]%;CPqRRWe!zGqk<br>
-Score: 551  Solution :  8RzF:oGK]%;CPqRRWe!zGqk<br>
-Score: 551  Solution :  8RzF:oGK]%;CPqRRWe!zGqk<br>
-Score: 551  Solution :  8RzF:oGK]%;CPqRRWe!zGqk<br>
-....................................................<br>
-..................................................<br>
-................................................<br>
-Score: 1  Solution :  Artificial Intelligencf<br>
-Score: 1  Solution :  Artificial Intelligencf<br>
-Score: 1  Solution :  Artificial Intelligencf<br>
-Score: 1  Solution :  Artificial Intelligencf<br>
-Score: 0  Solution :  Artificial Intelligence<br>
+<img width="1292" height="472" alt="Screenshot 2025-10-03 084951" src="https://github.com/user-attachments/assets/55a6d319-e7f2-4af5-95f0-7667e4cbbca6" />
+
+<img width="1283" height="467" alt="Screenshot 2025-10-03 085026" src="https://github.com/user-attachments/assets/5850cdea-a41b-459c-80d3-522f1c469101" />
+
+<h2>Result:</h2>
+
+Thus the program to implement Simple Hill Climbing Algorithm is executed successfully.
